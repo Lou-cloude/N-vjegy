@@ -13,4 +13,17 @@ bels[ eltartas 75 es 30*/
     background: lime;
     padding: 0px 75px 30px;
     box-sizing: border-box;
+    position: relative;
 }
+
+/*padding bels eltartas margin kulso eltartas*/
+
+.avatar{
+    position: absolute; /*első pozicionált szülőhöz képest fogja állítani pozition:relative*/
+    top: -75px;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*position: absolute (mindennek a tetejére kerül)*/

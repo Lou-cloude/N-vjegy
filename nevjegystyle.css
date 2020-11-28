@@ -1,3 +1,16 @@
 body{
     background: tomato;
 }
+
+/*szelesseg 500
+felső eltartás 170
+középen
+bels[ eltartas 75 es 30*/
+
+.box {
+    width: 500px;
+    margin: 170px auto 0;
+    background: lime;
+    padding: 0px 75px 30px;
+    box-sizing: border-box;
+}

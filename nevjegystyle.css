@@ -1,5 +1,7 @@
 body{
-    background: tomato;
+    background: url(images/landscape-little.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*szelesseg 500
@@ -10,8 +12,8 @@ bels[ eltartas 75 es 30*/
 .box {
     width: 500px;
     margin: 170px auto 0;
-    background: lime;
-    padding: 0px 75px 30px;
+    background: transparent linear-gradient(to left top, #949FCB 0%, #FFFCDC 100%) 0% 0% no-repeat padding-box;;
+    padding: 130px 75px 30px;
     box-sizing: border-box;
     position: relative;
 }

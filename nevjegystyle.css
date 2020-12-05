@@ -3,6 +3,9 @@ body{
     background: url(images/landscape-little.png);
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0;
 }
 
 h1{
@@ -13,6 +16,7 @@ h1{
 p{
     font-size: 18px;
     text-align: center;
+    line-height: 2px;
 }
 
 .varos{
@@ -35,9 +39,9 @@ bels[ eltartas 75 es 30*/
 .box {
     text-align: left;
     max-width: 500px;
-    margin: 170px auto 0;
+    margin: 90px auto 0;
     background: transparent linear-gradient(to left top, #949FCB 0%, #FFFCDC 100%) 0% 0% no-repeat padding-box;
-    padding: 130px 15px 30px;
+    padding: 120px 15px 30px;
     box-sizing: border-box;
     position: relative;
 }
@@ -60,3 +64,6 @@ bels[ eltartas 75 es 30*/
     margin-right: auto;
 }
 /*position: absolute (mindennek a tetejére kerül)*/
+
+@media (min-width: 520px){
+}
